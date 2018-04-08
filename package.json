@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API backend for T2AM: billing, search, signup",
+  "main": "bin/manage.js",
+  "scripts": {
+    "test": "nyc mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T2AM/api.git"
+  },
+  "keywords": [
+    "api",
+    "T2AM"
+  ],
+  "author": "Ben Coe <ben@npmjs.com>",
+  "license": "Unlicensed",
+  "bugs": {
+    "url": "https://github.com/T2AM/api/issues"
+  },
+  "homepage": "https://github.com/T2AM/api#readme",
+  "dependencies": {
+    "@npm/spife": "^11.1.5"
+  }
+}
